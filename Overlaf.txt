@@ -1,0 +1,92 @@
+\documentclass[12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\title{\textbf{Reconhecimento Facial, Racismo Algorítmico e o Papel do Programador de IA no Contexto do Smart Sampa}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Integrantes}
+
+Vinicius Henrique Otti Masson RA: 102678
+
+Pablo Henrique Barbi          RA: 103190
+
+\section*{Introdução}
+
+Vivemos em uma era de transformação digital profunda, onde as tecnologias de Inteligência Artificial (IA) assumem um papel cada vez mais central na gestão das cidades. Entre essas inovações, os sistemas de reconhecimento facial se destacam como ferramentas promissoras para a segurança pública, prometendo eficiência no combate à criminalidade e maior controle urbano. Um exemplo marcante desse processo é o programa \textbf{Smart Sampa}, implementado pela Prefeitura de São Paulo.
+
+No entanto, a euforia tecnológica esconde um conjunto de desafios éticos, sociais e jurídicos que precisam ser cuidadosamente analisados. O uso indiscriminado dessas tecnologias, sem um rigor técnico e ético adequado, pode resultar na amplificação de práticas discriminatórias e na violação de direitos fundamentais. O presente trabalho busca, portanto, explorar esses aspectos, com foco na responsabilidade técnica e social dos programadores de IA envolvidos em projetos como o Smart Sampa.
+
+\section*{Problema Central: Racismo Algorítmico e os Riscos da Falibilidade Tecnológica}
+
+O reconhecimento facial, por mais avançado que seja, ainda enfrenta limitações técnicas significativas. Estudos acadêmicos, como o trabalho de Rosane Leal da Silva, demonstram que os algoritmos utilizados nesses sistemas apresentam maior margem de erro na identificação de pessoas negras, especialmente mulheres jovens. Essa discrepância não é fruto do acaso, mas sim de falhas no processo de treinamento dos modelos, que, muitas vezes, utilizam bases de dados com predominância de rostos brancos.
+
+No contexto do Smart Sampa, essa falha técnica pode ter consequências sociais devastadoras. Um sistema que apresenta viés racial pode resultar em abordagens policiais indevidas, prisões injustas e, em última instância, na violação de direitos constitucionais como o direito à igualdade e à presunção de inocência. Esses riscos reforçam a urgência de desenvolver soluções tecnológicas mais justas, transparentes e auditáveis.
+
+\section*{Objetivo do Projeto Prático}
+
+Este projeto tem como objetivo central o desenvolvimento de uma aplicação simulada de um sistema de reconhecimento facial. A ideia é testar, de forma empírica, as taxas de erro na identificação de rostos de diferentes etnias, sob variadas condições de iluminação e resolução. Ao realizar essa simulação, pretendemos fornecer uma base de dados concreta que comprove, na prática, o que já foi identificado teoricamente: a existência de viés algorítmico em sistemas de RFA.
+
+\section*{Metodologia Tecnológica e Científica}
+
+A abordagem metodológica deste projeto difere daquela utilizada no artigo base. Em vez de uma análise puramente teórica, optamos por uma abordagem experimental, que alia ciência de dados, engenharia de software e análise estatística.
+
+As etapas da metodologia incluem:
+
+\begin{enumerate}
+    \item Seleção de um dataset balanceado e diverso, como o \textit{FairFace} ou o \textit{UTKFace}, garantindo representatividade étnica.
+    \item Utilização de ferramentas consolidadas como \texttt{Python}, \texttt{OpenCV} e \texttt{dlib} para desenvolvimento dos modelos de reconhecimento facial.
+    \item Aplicação de técnicas de pré-processamento de imagem, como normalização de brilho e contraste, para avaliar o impacto das condições ambientais na precisão do sistema.
+    \item Execução de testes controlados, variando iluminação, ângulo de captura e qualidade da imagem.
+    \item Coleta de dados quantitativos sobre a taxa de falsos positivos e falsos negativos, diferenciados por etnia, gênero e faixa etária.
+    \item Visualização e análise dos resultados através de gráficos e relatórios técnicos.
+\end{enumerate}
+
+\section*{O Papel do Programador de IA no Contexto do Smart Sampa}
+
+No universo tecnológico de um projeto como o Smart Sampa, o programador de IA não é apenas um executor de códigos. Ele é um agente de transformação social, com responsabilidade direta sobre os impactos que suas decisões técnicas podem gerar na vida das pessoas.
+
+Entre as principais competências esperadas desse profissional, destacam-se:
+
+\begin{itemize}
+    \item \textbf{Desenvolvimento de Modelos Éticos}: Garantir que os algoritmos sejam treinados com bases de dados representativas e livres de vieses discriminatórios.
+    \item \textbf{Auditoria e Transparência Algorítmica}: Implementar mecanismos que permitam a rastreabilidade das decisões da IA.
+    \item \textbf{Segurança da Informação}: Adotar técnicas robustas de criptografia e controle de acesso para proteger os dados biométricos da população.
+    \item \textbf{Responsabilidade Jurídica}: Aplicar os preceitos da LGPD e outras legislações pertinentes.
+    \item \textbf{Explicabilidade de IA (Explainability)}: Tornar os processos algorítmicos compreensíveis para agentes públicos e a população.
+    \item \textbf{Otimização e Escalabilidade}: Desenvolver sistemas capazes de operar em tempo real e em larga escala.
+\end{itemize}
+
+\section*{Resultados Esperados}
+
+Ao concluir os testes práticos, esperamos constatar o aumento das taxas de erro na identificação de pessoas negras, especialmente em condições adversas de iluminação e qualidade de imagem. Esses resultados serão apresentados por meio de gráficos de dispersão, histogramas e relatórios comparativos, destacando de forma clara o impacto do viés algorítmico.
+
+Além disso, o projeto servirá como um estudo de caso aplicado, capaz de fornecer subsídios técnicos para debates políticos e jurídicos sobre a regulamentação do uso de RFA na segurança pública brasileira.
+
+\section*{Conclusão}
+
+O avanço da tecnologia deve caminhar lado a lado com o respeito aos direitos humanos e aos princípios constitucionais. Programas como o Smart Sampa têm o potencial de transformar positivamente a segurança pública, mas, para isso, é indispensável que sejam desenvolvidos e geridos com responsabilidade técnica, ética e social.
+
+O programador de IA, nesse contexto, torna-se uma peça estratégica. Suas escolhas, desde a seleção de datasets até a implementação de políticas de segurança de dados, têm impacto direto na proteção — ou violação — de direitos fundamentais. A construção de uma cidade inteligente, justa e segura depende, portanto, da competência, da ética e do comprometimento desses profissionais.
+
+\section*{Referência Bibliográfica}
+
+SILVA, Rosane Leal da. \textit{Racismo Algorítmico e Reconhecimento Facial no Brasil}.
+
+\end{document}
+```
+
+---
+
+Se quiser, posso exportar esse `.tex` para você em um arquivo e te enviar. Deseja que eu gere o arquivo?
