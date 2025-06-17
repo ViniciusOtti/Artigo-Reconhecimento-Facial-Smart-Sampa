@@ -1,0 +1,1 @@
+# Artigo-Reconhecimento-Facial-Smart-Sampa
